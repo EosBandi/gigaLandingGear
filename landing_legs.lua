@@ -18,11 +18,11 @@
 --			 UP and DOWN PWM is for motor control values
 
 
-local LEG_UP_TIME = 5000     --leg up time in seconds
-local LEG_DOWN_TIME = 5000   --leg down time in seconds
+local LEG_UP_TIME = 6000     --leg up time in seconds
+local LEG_DOWN_TIME = 6200   --leg down time in seconds
 
 local SERVO_LEG_CONTROL = 29   -- Landing gear function 
-local SERVO_LEG_OUTPUT  = 6   -- PWM Channel which connected to the servo brushed ESC's
+local SERVO_LEG_OUTPUT  = 12   -- PWM Channel which connected to the servo brushed ESC's
 
 local PWM_UP = 1000
 local PWM_DOWN = 2000
